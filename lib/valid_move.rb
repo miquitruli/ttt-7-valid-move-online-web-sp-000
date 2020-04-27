@@ -5,10 +5,8 @@
 
 
 def valid_move?(board, index)
-  if position_taken? == false
-    return true
-  elsif board[index] == "  "
-    return true
+  if position_taken? == true
+    return nil
   end
 end
 
