@@ -18,7 +18,7 @@ end
 def valid_move?
  if position_taken? == true
    return nil
- elsif position_taken == false
+ elsif position_taken? == false
    return true
  end
 end
