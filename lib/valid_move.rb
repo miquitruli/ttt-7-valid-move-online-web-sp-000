@@ -1,9 +1,3 @@
-
-
-
-
-
-
 def valid_move?(board, index)
 
   def position_taken?(array, ind)
@@ -18,15 +12,15 @@ def valid_move?(board, index)
     end
   end
 
-    def number_valid?(num)
-      if num.between?(0, 8) == true
-        return true
-      else
-        return false
-      end
+  def number_valid?(num)
+    if num.between?(0, 8) == true
+      return true
+    else
+      return false
     end
-
   end
+
+end
 
   if (position_taken? == false && number_valid == true)
     return true
