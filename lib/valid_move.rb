@@ -26,10 +26,10 @@ def valid_move?(board, index)
       end
     end
 
-  if (position_taken?(array, ind) == false && number_valid(num) == true)
+  if (position_taken? == false && number_valid == true)
     return true
   else
     return false
   end
-  
+
 end
