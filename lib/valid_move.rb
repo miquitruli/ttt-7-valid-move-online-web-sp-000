@@ -1,13 +1,13 @@
 def valid_move?(board, index)
 
-  def position_taken?(array, ind)
-    if (array[ind] == "X" || array[ind] == "O")
+  def position_taken?(board, index)
+    if (board[index] == "X" || board[index] == "O")
       return true
-    elsif array[ind] == " "
+    elsif board[index] == " "
       return false
-    elsif array[ind] == ""
+    elsif board[index] == ""
       return false
-    elsif array[ind] == nil
+    elsif board[index] == nil
       return false
     end
   end
